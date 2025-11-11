@@ -1,0 +1,28 @@
+body, div, p {
+    border: 1px solid;
+}
+
+.img-hoja2{
+    background-image: url(./../ej-1-css/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.dialog-text{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 11%;
+}
+
+a{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #197C4B;
+}

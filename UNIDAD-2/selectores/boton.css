@@ -1,0 +1,39 @@
+button{
+    background-color: #FBD673;
+    width: 160px;
+    height: 51px;
+    border: 3px solid;
+}
+
+body{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+a{
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #000000;
+    width: 160px;
+    height: 51px;
+    border: 3px solid;
+    color: white;
+}
+
+.boton-1{
+    background-color: #000000;
+    width: 160px;
+    height: 51px;
+    border: 3px solid;
+    color: white;
+}
+
+.boton-1:hover{
+    background-color: #FBD673;
+    width: 160px;
+    height: 51px;
+    border: 3px solid;
+    color: #000000;
+}

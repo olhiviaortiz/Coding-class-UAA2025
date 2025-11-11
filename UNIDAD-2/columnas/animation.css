@@ -1,0 +1,21 @@
+.caja1{
+    background-color: grey;
+    height: 400px;
+    width: 300px;
+    scale:1;
+    box-shadow: 5px 5px white; 
+    transition: 0.5s ease;
+}
+
+.caja1:hover{
+    scale: 0.9;
+    background-color: aqua;
+    box-shadow: 5px 5px #ccc; 
+}
+select,
+::picker(select) {
+  appearance: base-select;
+}
+.mamadas {
+    color:red;
+}

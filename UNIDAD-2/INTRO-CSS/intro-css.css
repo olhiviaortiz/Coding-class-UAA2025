@@ -1,0 +1,61 @@
+body{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.col-2{
+    display: flex;
+}
+
+.cont-prim{
+    margin-left: 10%;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 4%;
+}
+
+.cont-sec{
+    margin-left: 1%;
+    width: 25%;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 4%;
+    height: 303px;
+    padding-bottom: 7%;
+}
+
+.cont-ter{
+    margin-left: 10%;
+    width: 30%;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.margen-superior{
+    margin-top: 6%;
+}
+
+dt{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.code-text{
+    background-color: gainsboro;
+    border-radius: 11px;
+    padding: 2% 0 2% 13%;
+    width: 50%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}

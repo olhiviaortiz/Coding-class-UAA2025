@@ -1,0 +1,31 @@
+/*body, div, a, p, img{
+    border: 1px solid;
+}*/
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.estilo-barra{
+    background-color: black;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+.button-size{
+    padding: 2%;
+    border: 3px solid transparent;
+}
+
+a:active, a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.boton-hover:hover{
+    border: 3px solid;
+    border-color: white;
+}

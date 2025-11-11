@@ -1,0 +1,263 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*div, a, p {
+    border: 1px solid;
+}*/
+
+/*css de menú*/
+.sticky-menu{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.col-menu-center{
+    display: flex;
+    justify-content: center;
+}
+
+.col-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.espaciado{
+    padding: 2%;
+    border: 1px solid transparent;
+    color: grey;
+    transition: 0.3s ease;
+}
+
+.espaciado:hover{
+    a{
+        font-weight: 600 !important; 
+        color: blue !important;   
+    }
+    
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.espaciado:active{
+    background-color: rgba(28, 29, 25, 0.6);
+    border: 1px solid transparent;
+    
+    a{
+        color: white !important;
+    }
+}
+
+a:link, a:visited{
+    font-weight: 300;
+    text-decoration: none;
+    color: black !important;
+}
+
+/*css de banner*/
+.img-banner{
+    background-image: url(./img/img-viajes.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100%;
+    position: relative;
+}
+
+.div-text-banner{
+    background-color: rgba(28, 29, 25, 0.6);
+    width: 35%;
+    position:absolute;
+    padding: 5%;
+    top: 16%;
+    left: 9%;
+}
+
+.text-banner{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+}
+
+.boton-sec{
+    a{
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600 !important;
+        color: white !important;
+    }
+    border: 2px solid;
+    border-color: white;
+    background-color: transparent;
+    width: 150px;
+    height: 43px;
+    margin: auto;
+    transition: 0.5s ease;
+    
+}
+
+.boton-sec:hover{
+    background-color: white;
+    a{
+        color: black !important;
+    }
+}
+
+.boton-sec:active{
+    background-color: rgba(28, 29, 25, 0.6);
+    border: 1px solid transparent;
+    a{
+        color: white !important;
+    }
+}
+
+/*cards*/
+
+.gab-colum{
+    margin-top: 4%;
+    gap: 30px;
+    margin-bottom: 5%;
+
+}
+
+.contenedor-card{
+    width: 280px;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    height: 380px;
+    /*opacity: 0.7;
+    transition: opacity 0.3s ease;*/ 
+
+}
+
+.contenedor-card:hover{
+    opacity: 1;
+    scale: 1.1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    button{
+        bottom: 8%;
+        margin-left: 47%;
+    }
+
+}
+
+.japon{
+    background-image: url(./img/japon.png);
+    background-repeat: no-repeat;
+    height: 165px;
+    position: relative;
+}
+
+.italia{
+    background-image: url(./img/italia.png);
+    background-repeat: no-repeat;
+    height: 165px;
+    position: relative;
+}
+
+.francia{
+    background-image: url(./img/francia.png);
+    background-repeat: no-repeat;
+    height: 165px;
+    position: relative;
+}
+
+.card-chip-nuevo{
+    background-color: #F0DF42;
+    border-radius: 36px;
+    position: absolute;
+    width: 80px;
+    line-height: 0px;
+    left: 65%;
+    top: 9%;
+    height: 29px;
+    p{
+        text-align: center;
+        padding: 2px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+.card-chip-descuento{
+    background-color: red;
+    border-radius: 36px;
+    position: absolute;
+    width: 80px;
+    line-height: 0px;
+    left: 65%;
+    top: 9%;
+    height: 29px;
+    p{
+        text-align: center;
+        padding: 2px;
+        font-weight: 600;
+        font-size: 13px;
+        color: white;
+    }
+}
+
+.card-text{
+    background-color:rgba(28, 29, 25, 0.8);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;   
+    bottom: 0;           
+    left: 0;             
+    width: 260px;          
+    margin: 0;            
+    padding: 11px 0 15px 18px; 
+}
+
+.text-descrip{
+    padding: 9%;
+    margin-bottom: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ver-mas-boton{
+    a{
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600 !important;
+        color: black !important;
+    }
+    border: 2px solid;
+    background-color: transparent;
+    width: 110px;
+    height: 35px;
+    margin-left: 8%;
+    position: absolute;
+    bottom: -13%;
+}
+
+.ver-mas-boton:hover{
+    background-color: rgba(28, 29, 25, 0.6);
+    border: 2px solid transparent;
+    transition: 0.5s ease-in;
+    a{
+        color: white !important;
+        
+    }
+}
+
+.ver-mas-boton:active{
+    background-color: black;
+    border: 1px solid transparent;
+    a{
+        color: white !important;
+    }
+}
+
+
+
+

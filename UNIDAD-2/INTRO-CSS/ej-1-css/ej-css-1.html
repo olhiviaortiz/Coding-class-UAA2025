@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Perfil</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ej-css-1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="./img/banner-superior.jpg">
+        <div class="contenedor1">
+            <h1>Empieza tu viaje a Japón</h1>
+            <p class="cursiva">
+                "¡Prepárate para tu aventura en Japón! Completa este formulario para ayudarnos a organizar tu viaje ideal, 
+                desde lugares que visitar hasta actividades que quieras experimentar."
+            </p>
+            <h2>Lugares que visitaremos</h2>
+            <ul>
+                <li>Tokio – Cultura y tecnología</li>
+                <li>Kioto – Templos y jardines </li>
+                <li>Osaka – Gastronomía y entretenimiento</li>
+                <li>Hiroshima – Historia y memoriales</li>
+                <li>Hokkaido – Naturaleza y nieve</li>
+            </ul>
+            <div class="sub-contenedor2">
+                <h2>Información personal</h2>
+                <form>
+                    <label class="info-basic" for="ncompleto">Nombre completo</label><br>
+                    <input class="input-info-basic" type="text" id="ncompleto" name="ncompleto"><br>
+                    <label class="info-basic" for="email">Correo electrónico</label><br>
+                    <input  class="input-info-basic" type="email" id="email" name="email"><br>
+                    <label class="info-basic" for="quantity">Edad</label><br>
+                    <input class="input-info-basic" type="number" id="quantity" name="quantity"><br>
+                    <label class="info-basic" for="pais">País de origen</label><br>
+                    <select id="pais" name="pais"  class="input-info-basic">
+                    <option value="mexico">México</option>
+                    <option value="usa">Estados Unidos</option>
+                    <option value="francia">Francia</option>
+                    <option value="alemania">Alemania</option>
+                    </select>
+                </form>
+                <h2>Duración del viaje</h2>
+                <form>
+                    <input type="radio" id="duracion1" name="duracion1" value="1sem">
+                    <label for="duracion1"> 1 semana </label><br>
+                    <input type="radio" id="duracion2" name="duracion2" value="2sem">
+                    <label for="duracion2"> 2 semanas </label><br>
+                    <input type="radio" id="duracion3" name="duracion3" value="3sem">
+                    <label for="duracion3"> 3 semanas o más</label>
+                </form>
+            </div>
+            
+        </div>
+       
+    </body>
+</html>

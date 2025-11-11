@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo Transiciones CSS</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      background: #3498db;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.8s; /* base, se redefine timing abajo */
+    }
+
+    /* Tipos de timing */
+    .linear     { transition-timing-function: linear; }
+    .ease       { transition-timing-function: ease; }
+    .ease-in    { transition-timing-function: ease-in; }
+    .ease-out   { transition-timing-function: ease-out; }
+    .ease-in-out{ transition-timing-function: ease-in-out; }
+    .bezier     { transition-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55); } /* rebote */
+    .steps      { transition-timing-function: steps(7, end); }
+
+    /* Efecto hover */
+    .box:hover {
+      background: #e74c3c;
+      transform: scale(1.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="box linear">linear</div>
+  <div class="box ease">ease</div>
+  <div class="box ease-in">ease-in</div>
+  <div class="box ease-out">ease-out</div>
+  <div class="box ease-in-out">ease-in-out</div>
+  <div class="box bezier">bezier</div>
+  <div class="box steps">steps</div>
+</body>
+</html>
