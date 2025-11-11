@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="flex-basics.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Contenedor sin flex</h2>
+        <div class="caja-sin-bg">
+            <div class="caja-sin">Caja 1</div>
+            <div class="caja-sin">Caja 2</div>
+            <div class="caja-sin">Caja 3</div>
+            <div class="caja-sin">Caja 4</div>
+        </div>
+        <h2>Contenedores con flex</h2>
+        <p class="code-text">display: flex;</p>
+        <div class="caja-flex">
+            <div class="caja-con">Caja 1</div>
+            <div class="caja-con">Caja 2</div>
+            <div class="caja-con">Caja 3</div>
+            <div class="caja-con">Caja 4</div>
+        </div>
+        <!--Eje principal-->
+        <h2>Propiedades de Eje principal</h2>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: flex-start;</p>
+        </div>
+        <div class="caja-flex justify-start">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: flex-end;</p>
+        </div>
+        <div class="caja-flex justify-end">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: center;</p>
+        </div>
+        <div class="caja-flex justify-center">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: space-between;</p>
+        </div>
+        <div class="caja-flex justify-between">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: space-around;</p>
+        </div>
+        <div class="caja-flex justify-around">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">justify-content: space-evenly;</p>
+        </div>
+        <div class="caja-flex justify-even">
+            <div class="eje-central-bloques">Caja 1</div>
+            <div class="eje-central-bloques">Caja 2</div>
+            <div class="eje-central-bloques">Caja 3</div>
+            <div class="eje-central-bloques">Caja 4</div>
+        </div>
+        <!--Eje secundario-->
+        <h2>Propiedades de Eje secundario</h2>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">align-items: flex-start;</p>
+        </div>
+        <div class="caja-flex align-start">
+            <div class="b-1">Caja 1</div>
+            <div class="b-2">Caja 2</div>
+            <div class="b-3">Caja 3</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">align-items: flex-end;</p>
+        </div>
+        <div class="caja-flex align-end">
+            <div class="b-1">Caja 1</div>
+            <div class="b-2">Caja 2</div>
+            <div class="b-3">Caja 3</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">align-items: center;</p>
+        </div>
+        <div class="caja-flex align-center">
+            <div class="b-1">Caja 1</div>
+            <div class="b-2">Caja 2</div>
+            <div class="b-3">Caja 3</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">align-items: stretch;</p>
+        </div>
+        <div class="caja-flex-stretch align-stetch">
+            <div class="b1">Caja 1</div>
+            <div class="b2">Caja 2</div>
+            <div class="b3">Caja 3</div>
+        </div>
+        <div class="code-box">
+            <p class="code-text">display: flex;</p>
+            <p class="axis-text">align-items: baseline;</p>
+        </div>
+        <div class="caja-flex align-base">
+            <div class="b-1">Caja 1</div>
+            <div class="b-2">Caja 2</div>
+            <div class="b-3">Caja 3</div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 0 10% 5% 10%;
+}
+
+.caja1{
+    height: 250px;
+    background-color: crimson;
+    flex: 2 1 150px;
+    color: white;
+}
+
+.caja2{
+    height: 250px;
+    background-color: crimson;
+    flex: 0 0 200px;
+    color: white;
+}
+
+.caja-mod{
+    height: 250px;
+    background-color: blue;
+    flex: 0 0 20%;
+    color: white;
+    min-width: 200px;
+}
