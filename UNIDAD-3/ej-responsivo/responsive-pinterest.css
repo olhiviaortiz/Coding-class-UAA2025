@@ -24,29 +24,8 @@
     width: 100%;
 }
 
-.contenedor1{
-    display: flex;
-    gap: 15px;
-    margin: 5% 10% 0 10%;
-    justify-content: center;
-}
-
-.contenedor{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin: 5% 10% 0 10%;
-    justify-content: center;
-}
-
-.foto-size{
-    height: auto;
-    width: 200px;
-}
-
-.responsive{
-    height: auto;
-    flex: 0 0 25%;
-    color: white;
-    min-width: 200px;
+.fondo-contenedor{
+    background-image: url(./img/banner-fondo.png);
+    height: 670px;
+    width: 100%;
 }
