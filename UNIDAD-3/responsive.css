@@ -1,29 +1,49 @@
 .col{
     display: flex;
-    flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
     margin: 0 10% 5% 10%;
+    flex-wrap: wrap;
 }
 
 .caja1{
     height: 250px;
     background-color: crimson;
-    flex: 2 1 150px;
     color: white;
+    flex: 2 1 150px;
 }
 
 .caja2{
     height: 250px;
     background-color: crimson;
-    flex: 0 0 200px;
     color: white;
+    flex:1 1 200px;
 }
 
-.caja-mod{
+.caja3{
+    height: 250px;
+    background-color: crimson;
+    color: white;
+    flex:1 1 250px;
+}
+
+.caja4{
+    height: 250px;
+    background-color: crimson;
+    color: white;
+    flex:1 1 300px;
+}
+
+.caja-mod1{
     height: 250px;
     background-color: blue;
-    flex: 0 0 20%;
+    flex: 2 1 50%;
+    color: white;
+}
+.caja-mod2{
+    height: 250px;
+    background-color: blue;
+    flex: 0 0 200px;
     color: white;
     min-width: 200px;
 }
