@@ -9,11 +9,13 @@ body{
     margin: 0 150px 0 150px;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .serpiente{
     background-color: #EF798A;
 }
+
 
 .elefante{
     background-color: #F1D302;
@@ -45,3 +47,42 @@ a{
 h2{
     margin: 5% 0 1% 20%; ;
 }
+
+.hijo{
+    flex: 2 0 230px;
+    max-width: 230px;
+}
+
+@media (max-width: 950px){
+    body{
+        background-color: #57CC99;
+    }
+    .serpiente, .elefante, .flamingo, .pavo-real{
+        background-color: white;
+    }
+}
+
+
+
+
+
+@media (max-width:850px){
+    .box-style{
+        border-radius: 100px;
+        text-align: left;
+    }
+}
+
+
+
+
+
+@media (max-width: 576px){
+    body{
+        background-color: #EF798A;
+    }
+    .serpiente, .elefante, .flamingo, .pavo-real{
+        background-color: white;
+    }
+}
+
