@@ -51,6 +51,18 @@ h2{
 .hijo{
     flex: 2 0 230px;
     max-width: 230px;
+    order: 2;
+}
+
+
+.papa{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hijo{
+    width: 75%;
+
 }
 
 @media (max-width: 950px){
@@ -60,11 +72,10 @@ h2{
     .serpiente, .elefante, .flamingo, .pavo-real{
         background-color: white;
     }
-}
-
-
-
-
+    .hijo{
+        width: 100%;
+    }
+} 
 
 @media (max-width:850px){
     .box-style{
@@ -72,10 +83,6 @@ h2{
         text-align: left;
     }
 }
-
-
-
-
 
 @media (max-width: 576px){
     body{
