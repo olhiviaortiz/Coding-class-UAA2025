@@ -1,0 +1,4 @@
+- En pareja construyan una carpeta que deberán nombrar con el primer apellido de cada integrante
+- Esta carpeta deberá de estar dentro de la carpeta "alumnos-21"
+- Dentro de esta carpeta se deberán copiar los archivos de la carpeta "ejercicio-clase"
+- El equipo deberá realizar cada una de las secciones indicadas dentro del html con ayuda de la librería de bootstrap

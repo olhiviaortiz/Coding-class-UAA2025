@@ -1,0 +1,19 @@
+*****Freepass*****
+
+En caso de realizar esta actividad y realizarla de manera correcta el alumno podrá lograr de manera 
+automática los tokens necesarios para obtener un 10 final en la materia sin necesidad de 
+realizar la fiesta de tokens y sin importar los resultados de los parciales anteriores. 
+Para comprobar que la actividad se realizó de manera correcta, y es válido la asignación de calificación, 
+al inicio de la siguiente clase (25 de noviembre) se le preguntará al alumno como 
+funcionanan los grid de bootstrap basado en el trabajo entregado.
+
+Para la actividad de freepass se deberá realizar lo siguiente:
+- Crear una carpeta con los apellidos del alumno (nombrado-correctamente) dentro de la carpeta "alumnos-columnas-bootstrap"
+- Copiar el archivo bootstrap.html y bootstrap.css de la carpeta "ejercicio clase"
+- Una vez copiado el archivo se deberán realizar columnas con bootstrap aplicando las siguientes especificaiones
+        - Setting one column width
+        - Equal-width
+- El contenido de cada columna deberá tener un color de fondo diferente, un texto, una imagen y un botón de bootstrap
+- Subir la carpeta con git
+
+Durante la sesión del martes 25 se preguntará al alumno del funcionamiento de las grid de bootstrap y su funcionamiento 
